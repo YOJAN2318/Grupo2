@@ -1,0 +1,16 @@
+mongod --port 27107 --dbpath "la direccion de la carpeta "
+mongod --port 27107 --dbpath C:\Users\lenovo\Documents\yojan\mongo
+---- conecat mongosh ------
+mongosh --host localhost --port 27107 --verbose
+------ ver las base de datos -------
+show dbs
+------ para abrir tu bd ------------
+use "el nombre de la base de datos "
+------- para limpiar---------------
+cls
+------ para abrir un collections----
+show collections
+------- para crar un collections----
+db.createCollection("nombre de lo que quieres llamar")
+------- para borrar un collections----
+db."llamar al collection que quieres llamar".drop()
