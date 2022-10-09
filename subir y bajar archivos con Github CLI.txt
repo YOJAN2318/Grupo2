@@ -1,0 +1,9 @@
+Pasos para descargar Github CLI:
+1- Para bajar el repositorio lo que haremos sera : Copiar el codigo en la carpeta que designada.
+2- Abrir CMD y pegar el codigo Github CLI.
+--------------------------------------------------------------------------------------------------
+Pasos para subir archivos Github CLI:
+1- Abri CMD en la carpeta designada
+2- Pegar el comnado "git init -b main". 
+3- Pegar el comando " git add . && git commit -m "initial commit" " .
+4- Pegamos "git push" 
