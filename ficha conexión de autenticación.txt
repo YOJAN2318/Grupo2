@@ -1,0 +1,28 @@
+ficha conexión de autenticación
+la pestaña autenticación le permite conectarse a implementaciones que requieren 
+autenticación. para obtener información sobre los mecanismos de autenticación 
+dentro de mongodb, consultemecanismos de autenticación.
+
+procedimiento
+haga clic en opciones de conexión avanzadas .
+ 
+
+haga clic en la pestaña autenticación . 
+seleccione su método de autenticación entre las siguientes opciones:
+usuario contraseña
+usuario contraseña 
+provee la siguiente informacion:
+nombre de usuario
+clave
+(opcional)base de datos de autenticación
+mecanismo de autenticación:
+defecto
+
+la defaultconfiguración selecciona el primer mecanismo de autenticación 
+admitido por el servidor según un orden de preferencia.
+
+con la defaultconfiguración, mongodb intenta autenticarse utilizando los 
+siguientes mecanismos en el orden en que se enumeran:
+scram-sha-256
+scram-sha-1
+mongodb-cr
